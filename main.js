@@ -142,28 +142,28 @@ function cambiarImagen(valor) {
 function llenarBarraComida() {
     valorComida += 25;
     valorPersonaje = valorPersonaje + 25;
-    comida.style.backgroundImage = "url('./Pokémon-GO-Cubone-1080x609.jpg')";
+    comida.style.backgroundImage = "url('https://areajugones.sport.es/wp-content/uploads/2020/11/Poke%CC%81mon-GO-Cubone-1080x609.jpg')";
     comida.style.backgroundSize = "cover";
     setTimeout(function () { return cambiarImagen(comida); }, 1000);
 }
 function llenarBarraPelea() {
     valorPelea += 25;
     valorPersonaje = valorPersonaje + 25;
-    fight.style.backgroundImage = "url('./pelea.jpg')";
+    fight.style.backgroundImage = "url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4349c16f-5e4f-4957-b471-430a94a5f3c9/d197j04-4d80b9dc-9e20-4be5-b94c-c57637873b6c.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi80MzQ5YzE2Zi01ZTRmLTQ5NTctYjQ3MS00MzBhOTRhNWYzYzkvZDE5N2owNC00ZDgwYjlkYy05ZTIwLTRiZTUtYjk0Yy1jNTc2Mzc4NzNiNmMuanBnIn1dXX0.FmlsQp7w8781oH-hLUWZsFlkASF7d5plpEi31QsAbeg')";
     fight.style.backgroundSize = "cover";
     setTimeout(function () { return cambiarImagen(fight); }, 1000);
 }
 function llenarBarraJuego() {
     valorJugar += 25;
     valorPersonaje = valorPersonaje + 25;
-    juego.style.backgroundImage = "url('./juego.jpg')";
+    juego.style.backgroundImage = "url('https://pokecompany.com/wp-content/uploads/2020/03/PM15-84-1024x576.jpg')";
     juego.style.backgroundSize = "cover";
     setTimeout(function () { return cambiarImagen(juego); }, 1000);
 }
 function llenarBarraDormir() {
     valorDormir += 25;
     valorPersonaje = valorPersonaje + 25;
-    dormir.style.backgroundImage = "url('./bostezo.jpg')";
+    dormir.style.backgroundImage = "url('https://img.game8.co/3738532/140e30a54714bf876193089a37d34865.png/show')";
     dormir.style.backgroundSize = "cover";
     setTimeout(function () { return cambiarImagen(dormir); }, 1000);
 }
