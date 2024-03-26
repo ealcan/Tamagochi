@@ -1,0 +1,219 @@
+
+p{
+    font-family: "Rubik Bubbles", system-ui;
+  font-weight: 400;
+  font-style: normal;
+    
+}
+.accion{
+    height: 200px;
+    width: 50%;
+}
+/* comida */
+#comida{
+    float: left;
+    background-color: rgba(0, 128, 128, 0.579);
+}
+#palabraComida{
+    margin-top: 85px;
+    margin-left: 10%;
+    border: 2px;
+    color: seagreen;
+}
+#panelComida{
+    display: flex;
+    gap: 40px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+#comida #barraComida{
+    margin-left: 10px;
+    margin-top: 5px;
+    border: solid;
+    width: 80%;
+    height: 15px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+/* dormir */
+#dormir{
+    float: left;
+    background-color: rgba(63, 21, 130, 0.64);
+
+}
+#palabraDormir{
+    margin-top: 30px;
+    margin-left: 10%;
+    color: rgb(126, 17, 229);
+}
+#panelDormir{
+    display: flex;
+    gap: 40px;
+    justify-content: left;
+    margin-top: 75px;
+    margin-left: 15px;
+}
+
+#dormir #barraDormir{
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    border: solid;
+    width: 80%;
+    height: 15px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+/* pelear */
+#fight{
+    float: right;
+    background-color: salmon;
+}
+#palabraPelea{
+    margin-top: 30px;
+    margin-left: 75%;
+    color: brown;
+}
+#panelPelea{
+    display: flex;
+    gap: 40px;
+    justify-content: right;
+    margin-top: 75px;
+    margin-right: 15px;
+}
+
+#fight #barraPelea{
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+    border: solid;
+    width: 80%;
+    height: 15px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+/* jugar */
+
+#jugar{
+    float: right;
+    background-color: cornsilk;
+}
+#palabraJuego{
+    margin-top: 120px;
+    margin-left: 75%;
+    color: darkgrey;
+}
+#panelJuego{
+    margin-top: 5px;
+    margin-right: 15px;
+    display: flex;
+    gap: 40px;
+    justify-content: flex-end;
+}
+
+#jugar #barraJuego{
+    float: right;
+    margin-top: 5px;
+    margin-bottom: -100px;
+    margin-right: 10px;
+    border: solid;
+    width: 80%;
+    height: 15px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+/* personajeCentral */
+#personaje{
+    text-align: center;
+    align-items: center;
+    width: 40%;
+    margin-top: 70px;
+    margin-left: 29%;
+    margin-right: 30%;
+    position: absolute;
+    height: 250px;
+}
+#imagen{
+    height: 190px;
+}
+#barra, #barraJuego, #barraComida, #barraPelea, #barraDormir{
+    border: solid;
+    border-radius: 15px;
+    height: 20px;
+    background-color: #f0f0f0;
+    overflow: hidden;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.cubone{
+    margin-top: -20px;
+    width:200px;
+}
+
+#contenido, #contenidoComida, #contenidoPelea, #contenidoDormir, #contenidoJuego{
+    height: 100%;
+    background-color: green;
+}
+button{
+    background-color: #e0d1d1;
+    overflow: hidden;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: solid;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.porcentaje{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+}
+#pComida{
+    margin-top: 1px;
+    margin-left: 20px;
+}
+#pPelea{
+    margin-top: 23px;
+    margin-right: 20px;
+    text-align: right;
+}
+#pDormir{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+#pJuego{
+    margin-right: 20px;
+    margin-top: 23px;
+    float: right;
+}
+#nombre{
+    height: 50px;
+    margin-bottom: -40px;
+}
+#pPersonaje{
+    margin-top: 0px;
+    font-size: medium;
+}

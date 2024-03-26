@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/TS-Tamagochi/style.css">
+</head>
+<body>
+    <div class="cajas">
+        <div id="personaje">
+            <div id="nombre">
+                <div id="dialogo"></div>
+            </div>
+            <div id="imagen">
+                <img src="./cubone.png" class="cubone" alt="">
+            </div>
+            <div id="barra">
+                <div id="contenido"></div>
+            </div>
+            <p class="porcentaje" id="pPersonaje"></p>
+        </div>
+        <div class="accion" id="comida">
+            <div id="panelComida">
+                <button id="botonc1">🥕</button>
+                <button id="botonc2">🥞</button>
+                <button id="botonc3">🥐</button>
+            </div>
+            <div id="barraComida">
+                <div id="contenidoComida"></div>
+            </div>
+            <p class="porcentaje" id="pComida"></p>
+            <p id="palabraComida">EAT</p>
+        </div>
+        <div class="accion" id="jugar">
+            <div id="panelJuego">
+                <button id="botonj1">🛝</button>
+                <button id="botonj2">🕹️</button>
+                <button id="botonj3">🥎</button>
+            </div>
+            <div id="barraJuego">
+                <div id="contenidoJuego"></div>
+                
+            </div>
+            <p class="porcentaje" id="pJuego"></p>
+            <p id="palabraJuego">PLAY</p>
+        </div>
+        <div class="accion" id="fight">
+            <p id="palabraPelea">FIGHT</p>
+            <div id="panelPelea">
+                <button id="botonp1">👊</button>
+                <button id="botonp2">🏋️</button>
+            </div>
+            <div id="barraPelea">
+                <div id="contenidoPelea"></div>
+            </div>
+            <p class="porcentaje" id="pPelea"></p>
+        </div>
+        <div class="accion" id="dormir">
+            <P id="palabraDormir">SLEEP</P>
+            <div id="panelDormir">
+                <button id="botond1">🛌</button>
+                <button id="botond2">🥱</button>
+            </div>
+            <div id="barraDormir">
+                <div id="contenidoDormir"></div>
+            </div>
+            <p class="porcentaje" id="pDormir"></p>
+        </div>
+    </div>
+    <script src="/TS-Tamagochi/main.js"></script>
+</body>
+</html>
