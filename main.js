@@ -142,28 +142,28 @@ function cambiarImagen(valor) {
 function llenarBarraComida() {
     valorComida += 25;
     valorPersonaje = valorPersonaje + 25;
-    comida.style.backgroundImage = "url('/TS-Tamagochi/Pokémon-GO-Cubone-1080x609.jpg')";
+    comida.style.backgroundImage = "url('./Pokémon-GO-Cubone-1080x609.jpg')";
     comida.style.backgroundSize = "cover";
     setTimeout(function () { return cambiarImagen(comida); }, 1000);
 }
 function llenarBarraPelea() {
     valorPelea += 25;
     valorPersonaje = valorPersonaje + 25;
-    fight.style.backgroundImage = "url('/TS-Tamagochi/pelea.jpg')";
+    fight.style.backgroundImage = "url('./pelea.jpg')";
     fight.style.backgroundSize = "cover";
     setTimeout(function () { return cambiarImagen(fight); }, 1000);
 }
 function llenarBarraJuego() {
     valorJugar += 25;
     valorPersonaje = valorPersonaje + 25;
-    juego.style.backgroundImage = "url('/TS-Tamagochi/juego.jpg')";
+    juego.style.backgroundImage = "url('./juego.jpg')";
     juego.style.backgroundSize = "cover";
     setTimeout(function () { return cambiarImagen(juego); }, 1000);
 }
 function llenarBarraDormir() {
     valorDormir += 25;
     valorPersonaje = valorPersonaje + 25;
-    dormir.style.backgroundImage = "url('/TS-Tamagochi/bostezo.jpg')";
+    dormir.style.backgroundImage = "url('./bostezo.jpg')";
     dormir.style.backgroundSize = "cover";
     setTimeout(function () { return cambiarImagen(dormir); }, 1000);
 }
